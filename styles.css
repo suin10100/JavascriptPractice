@@ -9,7 +9,7 @@ body {
 }
 @font-face {
     font-family: maruburi;
-    src: url("./font/MaruBuri-Bold.ttf");
+    src: url("./font/MaruBuri-Regular.ttf");
 }
 #maruburi_font {
     font-family: "maruburi";
@@ -31,13 +31,27 @@ header > #bottom {
 main {   
     padding-left: 10%;
     padding-right: 10%;
+    grid-template-rows: 80% 2% 13% 5%;
 }
 
-main > div {
+main > #message {
     height: 100%;
     grid-template-columns: 10% 75% 15%;
     background-color: rgb(247, 232, 215);
     border: 2px solid rgb(68, 95, 121);
+}
+main > #insert {
+    background-color: rosybrown;
+}
+main > #writeMain {
+    background-color: rgb(46, 29, 3);
+    border: 3px solid rgb(232, 243, 203)
+}
+main > #Send {
+    align-items: center;
+    justify-self: start;
+    height: 30%;
+    width: 100%;
 }
 .d-grid {
     display: grid;
