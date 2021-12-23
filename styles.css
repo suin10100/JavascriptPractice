@@ -1,7 +1,6 @@
 html,
 body {
     height: 100%;
-   
 }
 
 body {
@@ -17,30 +16,25 @@ body {
 }
 
 header {
-    display: grid;
     grid-template-rows: 50% 50%;
 }
 
 header > #top {
-    display: flex;
     justify-content: space-between;
     border-bottom: 3px solid rgb(31, 141, 168);
+    font-family: "maruburi";
 }
 header > #bottom {
-    display: flex;
     justify-content: space-between;
 }
 
-main {
-    
+main {   
     padding-left: 10%;
     padding-right: 10%;
-    
-
 }
+
 main > div {
     height: 100%;
-    display: grid;
     grid-template-columns: 10% 75% 15%;
     background-color: rgb(247, 232, 215);
     border: 2px solid rgb(68, 95, 121);
@@ -50,4 +44,7 @@ main > div {
 }
 .margin-unset {
     margin: unset;
+}
+.d-flex {
+    display: flex;
 }
